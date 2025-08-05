@@ -1,0 +1,40 @@
+
+Value Function Approximation (VFA): A technique used to estimate value functions for large state or action spaces without using tabular storage.
+
+Parameterization: The process of expressing a function with parameters to make it learnable, often used in VFA.
+
+Objective Function: A function minimized or maximized to find optimal parameters, often the mean squared error in VFA.
+
+Gradient Descent: An optimization algorithm that adjusts parameters iteratively to minimize the objective function.
+
+Loss Function: A function representing the error between predicted and target values, minimized during training.
+
+Q-Learning VFA: A VFA method applied to Q-learning where Q-values are approximated without a Q-table.
+
+SARSA VFA: A VFA method applied to SARSA where Q-values are approximated for on-policy learning.
+
+E-SARSA VFA: A VFA method applied to Expected SARSA where expected Q-values are calculated using probabilities over actions.
+
+Neural Network: A common function approximator used in VFA to generalize across states and actions.
+
+Stochastic Gradient Descent (SGD): An optimization method where gradients are calculated for random samples to update model parameters.
+
+Memory Problem: A challenge in RL where state-action pairs cannot fit in memory, addressed by VFA techniques.
+
+Generalization: The ability of a model to predict values for unseen states, enabled by function approximation.
+
+Eligibility Traces: A method in TD learning that helps credit assignment over sequences, useful in VFA implementations.
+
+Monte Carlo Method: A VFA approach using complete episode returns to update value estimates.
+
+TD(0): A one-step temporal difference method used in VFA to update estimates after each transition.
+
+TD(λ): A TD learning method with eligibility traces, used in VFA to distribute credit over multiple steps.
+
+Discount Factor (γ): A parameter that determines the importance of future rewards in VFA updates.
+
+Weight Vector (w): A vector of parameters in VFA that adjusts the value estimates for different states or actions.
+
+Non-linear Approximation: A type of approximation that can capture complex patterns, often using neural networks in VFA.
+
+Linear Approximation: A simpler approximation method for VFA, where values are a linear function of state features.
