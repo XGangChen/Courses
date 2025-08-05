@@ -1,0 +1,42 @@
+
+Markov Process: A stochastic model where the probability of each event depends only on the state of the previous event.
+
+State Space: The set of all possible states in a system.
+
+Markov Decision Process (MDP): A framework for modeling decision-making in environments where outcomes are partly random and partly under the control of a decision maker.
+
+Policy: A strategy that specifies the action to take in each state.
+
+Policy Iteration: An algorithm that improves a policy iteratively by evaluating and improving it until convergence.
+
+Value Iteration: An algorithm that calculates the optimal value function by iteratively updating estimates.
+
+Bellman Equation: A recursive equation that relates the value of a state to the values of its subsequent states, foundational in dynamic programming and RL.
+
+Stochastic Process: A process involving randomness or probabilistic transitions between states.
+
+Stationary Process: A process whose statistical properties, like the transition probabilities and rewards, do not change over time.
+
+Transition Model: A model that represents the probabilities of moving from one state to another.
+
+Reward: A signal provided after an action that evaluates the agent's success or failure in the environment.
+
+Discount Factor (γ): A parameter that determines the weight of future rewards in the decision-making process.
+
+Finite MDP: An MDP with a finite number of states and actions.
+
+Dynamic Programming: A method for solving complex problems by breaking them into simpler subproblems, often involving iterative algorithms like policy and value iteration.
+
+Optimal Policy: The best policy for maximizing rewards over time.
+
+Convergence: The point at which an iterative algorithm, like policy or value iteration, stabilizes and produces the final solution.
+
+Sparse Reward: A reward signal that is infrequent or delayed, often used in reinforcement learning to represent long-term goals.
+
+Q-Value: The expected value of taking an action in a particular state.
+
+Bellman Factor (δ): A small threshold value used in value iteration to determine when to stop iterating.
+
+Horizon: The duration or number of steps in an episode or time period considered by an MDP.
+
+Episodic Environment: An environment with clearly defined episodes or tasks with endpoints.

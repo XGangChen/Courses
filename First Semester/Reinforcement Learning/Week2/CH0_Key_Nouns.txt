@@ -1,0 +1,50 @@
+
+Agent: An entity that interacts with an environment, perceives information, and performs actions to achieve goals.
+
+Environment: The external surroundings or context within which an agent operates.
+
+Rational Agent: An agent that selects actions to maximize a performance measure based on information gathered.
+
+PEAS: Stands for Performance measure, Environment, Actuators, and Sensors - a framework used to design agents.
+
+Actuators: Components that perform actions within the environment (e.g., motors, wheels).
+
+Sensors: Components that detect information from the environment (e.g., cameras, microphones).
+
+Percept: The agent's perception of its environment at a particular time.
+
+State: A specific configuration or status of the environment at a given moment.
+
+Deterministic Environment: An environment where the next state is entirely predictable from the current state and action.
+
+Stochastic Environment: An environment where outcomes are probabilistic and not fully predictable.
+
+Episodic Environment: An environment where an agent's experience is divided into independent episodes or steps.
+
+Static Environment: An environment that does not change while the agent is deciding on actions.
+
+Discrete Environment: An environment with a finite, countable set of states and actions.
+
+Continuous Environment: An environment with an infinite or uncountable set of states and actions.
+
+Single-agent System: A system with only one agent interacting with the environment.
+
+Multi-agent System: A system with multiple agents, either cooperating or competing.
+
+Reflex Agent: An agent that reacts to the current percept without considering the history.
+
+Model-based Agent: An agent that maintains an internal model of the world to make decisions based on more than immediate perceptions.
+
+Goal-based Agent: An agent that acts based on achieving a specific goal, using planning if necessary.
+
+Utility-based Agent: An agent that selects actions based on a utility function that evaluates the desirability of states or actions.
+
+Learning Agent: An agent capable of improving its performance based on feedback from its environment.
+
+Reward Function: A function that assigns a value or score to states or actions, guiding an agent's learning or decision process.
+
+Performance Measure: A criterion to evaluate the success or efficiency of an agent's behavior.
+
+Critic: A component in a learning agent that evaluates actions based on feedback.
+
+Problem Generator: A component in a learning agent that encourages exploration to improve learning.

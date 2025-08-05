@@ -1,0 +1,30 @@
+
+Reinforcement Learning (RL): A machine learning paradigm where agents learn by interacting with their environment to 
+				maximize a reward.
+Agent: The entity in RL that takes actions within an environment to achieve a goal.
+Environment: The external system an agent interacts with to learn and make decisions.
+State: A specific situation or configuration the agent is in within the environment.
+Action: A decision taken by the agent that affects the state of the environment.
+Reward: Feedback received from the environment after taking an action, guiding the agent toward its goal.
+Policy: A mapping from states to actions that defines the behavior of the agent.
+Value Function: Estimates the future rewards that can be achieved from a given state.
+Q-Value (Action-Value Function): Evaluates the expected reward for taking a specific action in a given state.
+Optimal Policy: The best strategy for maximizing rewards over time.
+Markov Decision Process (MDP): A mathematical framework for defining RL problems, specifying states, actions, and rewards 
+				with probabilistic transitions.
+Dynamic Programming (DP): A method for solving RL problems by breaking them down into simpler subproblems.
+Temporal Difference (TD) Learning: A method combining ideas from dynamic programming and Monte Carlo methods, updating 
+					estimates based on learned experiences.
+Monte Carlo Methods: Methods that estimate value functions based on averaging sample returns from episodes.
+Episode: A complete sequence of interactions in RL, ending in a terminal state.
+Discount Factor (γ): Determines the importance of future rewards versus immediate rewards.
+Return (G): The total accumulated reward from a particular state, considering future rewards.
+Optimal Value Function: The maximum value achievable for each state under the optimal policy.
+Tabular Solution Methods: Methods that solve RL problems by representing state and action spaces as tables.
+Q-Learning: An algorithm that learns the value of an action in a particular state to maximize cumulative rewards.
+Exploration: Trying new actions to discover their effects and potentially improve the policy.
+Exploitation: Choosing actions based on past experiences to maximize reward.
+Exploration vs. Exploitation: The balance between trying new actions to learn more and using known actions to maximize 
+				rewards.
+Applications: Use cases of reinforcement learning, including robotics, finance, healthcare, and game-playing.
+Transition Probability: The probability of reaching a new state given a current state and action.
