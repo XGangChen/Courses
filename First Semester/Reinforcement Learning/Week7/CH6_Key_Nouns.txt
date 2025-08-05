@@ -1,0 +1,40 @@
+
+Q-Learning: A model-free reinforcement learning algorithm that learns the value of actions in each state to optimize future rewards.
+
+Action-Value Function (Q-Value): A function estimating the expected return of a state-action pair under a given policy.
+
+Policy: The strategy an agent follows to decide on actions in various states.
+
+Epsilon-Greedy Policy: A policy where actions are chosen randomly with probability epsilon and optimally with probability 1-epsilon.
+
+Q-Table: A table storing Q-values for state-action pairs, used to guide action choices.
+
+Learning Rate (α): A parameter that determines the extent to which new information overrides old information.
+
+Discount Factor (γ): A parameter that adjusts the weight of future rewards relative to immediate rewards.
+
+SARSA (State-Action-Reward-State-Action): An on-policy TD control algorithm that updates Q-values based on actions taken according to the current policy.
+
+Expected SARSA: A variation of SARSA that takes the expected Q-value over all possible actions rather than the chosen one.
+
+On-Policy Learning: A method that learns the value of the policy currently being followed.
+
+Off-Policy Learning: A method that learns the value of an optimal policy regardless of the current policy being followed.
+
+Episode: A complete sequence of states, actions, and rewards that ends at a terminal state.
+
+Reward Table: A table storing reward values for state-action pairs, used to update Q-values.
+
+Exploration: The process of trying new actions to gather information about their potential rewards.
+
+Exploitation: The process of choosing the action that offers the highest known reward.
+
+Convergence: The point at which Q-values stabilize, and learning is complete.
+
+OpenAI Gym: A toolkit for developing and comparing reinforcement learning algorithms, often used for experiments with Q-learning.
+
+Environment: The external system or context within which an agent operates.
+
+Robot Navigation: An application of Q-learning in which a robot learns to find paths to a target location.
+
+Voyager-IIA: A robot model used to demonstrate Q-learning in path navigation experiments.

@@ -1,0 +1,40 @@
+
+Monte Carlo (MC): A class of algorithms used to estimate value functions and optimize policies by averaging sampled returns.
+
+Model-Free Learning: A method where the agent does not rely on a model of the environment’s dynamics.
+
+Model-Based Learning: A method that uses a model of the environment to predict outcomes of actions and plan accordingly.
+
+First-Visit MC: An MC method that estimates the value of a state based on the returns following its first occurrence in an episode.
+
+Every-Visit MC: An MC method that estimates the value of a state by averaging returns for every occurrence of the state.
+
+Exploring Starts (ES): An MC approach ensuring each action in each state is explored to learn the optimal policy.
+
+Epsilon-Greedy Policy: A policy that selects a random action with probability epsilon and the best-known action with probability 1-epsilon.
+
+Return: The cumulative reward received by an agent from a state-action sequence, often used in calculating state or action values.
+
+Sample Average: The average of observed returns, used in MC methods for estimating state or action values.
+
+State-Value Function (V): A function that gives the expected return from a particular state under a certain policy.
+
+Action-Value Function (Q): A function that estimates the expected return of an action taken in a particular state.
+
+Discount Factor (γ): A parameter that reduces the weight of future rewards, balancing short-term and long-term gains.
+
+Policy Improvement: The process of adjusting a policy to increase the expected reward or value.
+
+Control Problem: A reinforcement learning problem focused on optimizing a policy for maximum cumulative reward.
+
+Prediction Problem: A reinforcement learning problem focused on evaluating the quality of a fixed policy.
+
+Terminal State: A state in which an episode ends, typically with no further rewards.
+
+Episode: A sequence of states, actions, and rewards that ends at a terminal state.
+
+Policy Iteration: A method of improving a policy through iterative policy evaluation and policy improvement steps.
+
+Value Iteration: An algorithm that updates value estimates directly to find the optimal value function.
+
+Incremental Method: A method that updates estimates after each step or episode, useful in MC methods.

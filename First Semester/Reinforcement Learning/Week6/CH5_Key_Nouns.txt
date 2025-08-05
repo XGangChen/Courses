@@ -1,0 +1,40 @@
+
+Temporal Difference (TD) Learning: A reinforcement learning method that learns by updating value estimates based on differences between predictions at consecutive time steps.
+
+TD(0): A one-step TD algorithm that updates the value estimate immediately after each action, rather than waiting until the end of an episode.
+
+TD(1): A TD algorithm that updates value estimates after observing the full return, similar to Monte Carlo methods.
+
+TD(λ): A TD algorithm with eligibility traces that allows assigning credit to states visited earlier in an episode.
+
+Eligibility Traces: A mechanism that gives credit to previously visited states based on their recency and frequency.
+
+SARSA: An on-policy TD control algorithm that updates Q-values based on the action taken and observed in the current policy.
+
+Q-Learning: An off-policy TD control algorithm that updates Q-values based on the maximum estimated future reward, regardless of the current policy.
+
+Bootstrapping: The process of updating estimates based on other learned estimates rather than waiting for the final outcome.
+
+Discount Factor (γ): A parameter that reduces the weight of future rewards, balancing short-term and long-term gains.
+
+TD Error (δ): The difference between the predicted and observed value, used to update value estimates.
+
+RMSE (Root-Mean-Square Error): A metric for measuring the accuracy of a model by comparing predicted and actual values.
+
+Step Size (α): The learning rate used in TD algorithms to determine how much new information influences the value estimate.
+
+Backward View: A perspective in TD(λ) learning that applies updates to previously visited states after each step in the episode.
+
+Forward View: A conceptual approach in TD(λ) learning, not directly implementable, focusing on future steps' contributions to the current state.
+
+Sampling: A method that relies on observed outcomes for estimates rather than predictions, characteristic of Monte Carlo methods.
+
+Episode: A sequence of states, actions, and rewards that ends at a terminal state.
+
+Value Function (V): A function estimating the expected return from a particular state under a given policy.
+
+Action-Value Function (Q): A function estimating the expected return of a state-action pair under a given policy.
+
+On-Policy Method: An approach that learns the value of the policy being followed by the agent.
+
+Off-Policy Method: An approach that learns the value of an optimal policy regardless of the policy currently being followed.
