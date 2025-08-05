@@ -1,0 +1,10 @@
+
+ipywidgets
+matplotlib
+numpy
+python-opencv-headless
+pandas
+torch
+torchvision
+tqdm
+    

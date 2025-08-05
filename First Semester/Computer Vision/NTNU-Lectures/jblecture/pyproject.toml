@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jblectures"
+version = "0.1.0"
+description = ""
+authors = ["Jacky Baltes <jacky.baltes@ntnu.edu.tw>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+weasyprint = "^47.0"
+youtube-dl = "^2019.4"
+pygments = "^2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

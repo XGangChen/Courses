@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js and scene.js</title>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/panda.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<script src="js/reveal.js"></script>
+		<script src="http://daybrush.com/scenejs/release/latest/dist/scene.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="slide1"><h1>Slide 1</h1>
+					<p>This is a scenejs animation.</p>
+
+					<div class="container" style="position:absolute;zoom:50%;top:120%;left:80%">
+						<div class="bamboo joint2 bamboo1">
+						  <div class="joint"></div>
+						  <div class="joint"></div>
+						</div>
+						<div class="bamboo-group bamboo-group1">
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint"></div>
+							<div class="joint">
+							  <div class="leaf right right60 light"></div>
+							  <div class="leaf right right90"></div>
+							</div>
+							<div class="joint"></div>
+						  </div>
+						</div>
+						<div class="bamboo-group bamboo-group2">
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint"></div>
+							<div class="joint">
+							  <div class="leaf right right60 light"></div>
+							  <div class="leaf right right90"></div>
+							</div>
+							<div class="joint"></div>
+						  </div>
+						</div>
+						<div class="bamboo-group bamboo-group3 dark">
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint"></div>
+							<div class="joint">
+							  <div class="leaf right right60 light"></div>
+							  <div class="leaf right right90"></div>
+							</div>
+							<div class="joint"></div>
+						  </div>
+						</div>
+						<div class="bamboo-group bamboo-group4 dark">
+						  <div class="bamboo">
+							<div class="joint">
+							  <div class="leaf left left60 light"></div>
+							  <div class="leaf left left30"></div>
+							</div>
+							<div class="joint"></div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint"><div class="leaf left left60 light"></div><div class="leaf left left30"></div></div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint"></div>
+							<div class="joint"><div class="leaf right right60 light"></div><div class="leaf right right90"></div></div>
+							<div class="joint"></div>
+						  </div>
+						  <div class="bamboo">
+							<div class="joint"><div class="leaf left left60 light"></div><div class="leaf left left30"></div></div>
+							<div class="joint"></div>
+						  </div>
+						</div>
+						<div class="panda">
+						  <div class="body">
+							<div class="arm left">
+							  <div class="forearm">
+								<div class="hand"></div>
+							  </div>
+							</div>
+							<div class="leg left"><div class="foot"></div></div>
+							<div class="belly">
+							</div>
+							<div class="leg right"><div class="foot"></div></div>
+							<div class="head">
+							  <div class="ear left"></div>
+							  <div class="ear right"></div>
+							  <div class="cheek right"></div>
+							  <div class="face">
+								<div class="eye left"></div>
+								<div class="eye right"></div>
+							  </div>
+							</div>
+							<div class="arm right">
+							  <div class="forearm">
+								<div class="hand">
+								  <div class="bamboo joint2">
+									<div class="joint"></div>
+									<div class="joint"></div>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<div class="head front">
+							  <div class="mouth"></div>
+							  <div class="nose">
+								<div class="mustache left"></div>
+								<div class="mustache right"></div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <script src='js/panda.js'></script>
+					  <script>console.log('*** Executing slide1 slide');</script>
+				</section>
+				<section data-state="slide2">
+					<h1>Slide 2</h1>
+					<p>Another animation</p>
+					<div class="card-container"  style="position:relative;width:1024px;height:1024px">
+					<div class="card-rotor">
+						<div class="card-wrapper forward">
+							<div class="card">
+							<div class="mark">
+								<div class="crown">
+								<div class="left"></div>
+								<div class="center"></div>
+								<div class="right"></div>
+								</div>
+							</div>
+							</div>
+						</div>
+						<div class="card-wrapper backward">
+							<div class="card">
+							<div class="mark">
+								K
+							</div>
+							</div>
+						</div>
+						<div class="shadow"></div>
+						</div>
+					</div>
+					<script src='js/card.js'></script>
+
+				</section>
+			</div>
+		</div>
+
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+				]
+			});
+
+			Reveal.addEventListener('slide1', function() {
+				console.log('Slide 1' + "time:>>>" + pandaScene.getTime() + "<<<");
+				pandaScene.setTime("from");
+				console.log('Slide 1' + "time:>>>" + pandaScene.getTime() + "<<<");
+			});
+
+			Reveal.addEventListener('slide2', function() {
+				console.log('Slide 2');
+				cardScene.setTime("from");
+				console.log('Slide 1' + "time: cardScene >>>" + cardScene.getTime() + "<<<");
+				console.log('Slide 1' + "time: pandaScene >>>" + pandaScene.getTime() + "<<<");
+			});
+			
+		</script>
+	</body>
+</html>
