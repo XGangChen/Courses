@@ -1,0 +1,40 @@
+Please design your own non-linear system with local asymptotic stability (non-linear system should be designed by yourself) and complete the following tasks.
+
+(1) Find the equilibrium points of the system.
+
+(2) Linearize the system around the equilibrium points.
+
+(3) Analyze the stability of the equilibrium points using the linearized system
+
+(4) Find a Lyapunov function.
+
+   (a) Krasovskii’s method
+
+   (b) The Variable Gradient Method
+
+(5) Plot a Lyapunov function using MATLAB
+
+(6) Plot state trajectories of the system with Lyapunov function near the origin using MATLAB.
+
+(7) Show the origin is stable using Lyapunov’s direct method.
+
+(8) Show the origin is asymptotically stable using Invariant set theorem.
+
+(9) Performance analysis of the system.
+
+
+Assessment:
+
+1.System difficulty and completeness: 80 points
+
+(a) Excellent: Third-order non-linear system with at least 6 different non-linear items. (0-80points)
+
+(b) Good: Second-order non-linear system with at least 4 different non-linear items. (0-70points)
+
+(c) Fair: Second-order non-linear system with at least 2 different non-linear items. (0-60points)
+
+2.Response to questions (Two questions): 20 points
+
+3.Expression and presentation (10 minutes): 10 points
+
+
