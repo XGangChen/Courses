@@ -1,0 +1,27 @@
+Slide 1: Introduction and Outline
+Artificial Neural Networks (ANN): Computing systems inspired by the biological neural networks in the brain.
+Deep Learning: A subset of machine learning focusing on neural networks with many layers.
+Linear Classification: The process of classifying data points into categories using a linear decision boundary.
+Cost Functions: Mathematical functions used to measure the error of a model’s predictions.
+Optimization: Techniques to adjust model parameters to minimize the cost function.
+Backpropagation Algorithm: A method for training neural networks by propagating the error backward through layers.
+
+Slide 5: Deep Learning Challenges
+Big Data: Large datasets requiring advanced techniques for processing and analysis.
+Graphics Processing Units (GPU): Hardware accelerators for parallel processing, crucial for deep learning.
+Software Toolboxes: Libraries and frameworks (e.g., TensorFlow, PyTorch) for implementing deep learning.
+
+Slide 6: Linear Regression
+Linear Model: A model where the relationship between input and output is linear.
+Quadratic Model: A model including squared terms, allowing for curvature in predictions.
+
+Slide 7: Why Deep Learning?
+Feature Extraction: The process of identifying and extracting relevant features from raw data.
+Low, Mid, High-Level Features: Features representing increasing abstraction levels in data representation.
+
+Slide 8-10: Neural Network (Perceptron)
+Artificial Neuron (Perceptron): A basic computational unit in a neural network, inspired by biological neurons.
+Inputs, Weights, Bias, Activation Function: Components of a perceptron contributing to the final output.
+Forward Propagation: The process of calculating the output from input through a neural network.
+
+
