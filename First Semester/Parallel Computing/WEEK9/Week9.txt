@@ -1,0 +1,8 @@
+平行計算(Case study 1)
+https://www.youtube.com/watch?v=MslNLtkoHp8
+
+平行計算(Case study 2)
+https://www.youtube.com/watch?v=y65uPObdbZI
+
+平行計算(CUDA introduction 1)
+https://www.youtube.com/watch?v=Ne4tcyenuIE

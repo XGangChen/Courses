@@ -1,0 +1,8 @@
+平行計算(CUDA introduction 2)
+https://www.youtube.com/watch?v=2sJvvP5L7iU
+
+平行計算(CUDA introduction 3)
+https://www.youtube.com/watch?v=BTfAPgilbc4
+
+平行計算(CUDA introduction 4)
+https://www.youtube.com/watch?v=X5dM23DnryE
